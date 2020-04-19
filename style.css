@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-box input[type="search"] {
+  flex: 0.5;
+  border: solid gray 1px;
+  padding-right: 1.5rem;
+  padding-left: .5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: left;
+  font-size: 1rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.gallery img {
+  padding: 20px 35px;
+}
